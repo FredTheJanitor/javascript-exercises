@@ -13,6 +13,8 @@
  const fullName = `${firstName} ${lastName}`;
  const thisYear = 1965;
  const birthYear = 1947;
+//  originally i had a template literal here, but that made it a string
+// when the test was actually looking for a number
  const age = thisYear-birthYear;
  const greeting = `Hello! My name is ${fullName} and I am ${age} years old.`
 
