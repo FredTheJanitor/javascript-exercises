@@ -42,6 +42,8 @@ const removeFromArray = (arr,...theRemovedItems)=> arr.filter(arrItem=>!theRemov
 //     return result;
 // };
 // ----------------i got confused again---------------
+// ﻿
+// 3️⃣ Count how many true values are in this array
 
 // Do not edit below this line
 module.exports = removeFromArray;
