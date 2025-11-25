@@ -7,7 +7,8 @@ const subtract = function(num1,num2) {
 	
 };
 
-const sum = function() {
+const sum = function(array) {
+  return array.reduce((sum, indv)=> sum += indv,0);
 	
 };
 
