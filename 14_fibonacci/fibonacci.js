@@ -1,6 +1,7 @@
 const fibonacci = function(x) {
     const fibArr = [];
     const z = +x;
+// edge cases
     if (z===0) {
         return 0;
     } else if (z < 0) {
@@ -8,6 +9,7 @@ const fibonacci = function(x) {
     } else if (z > 1000) {
         return 'please dont break my computer lol';
     }
+// iterative fibonacci sequence with stored array
     for(let i=1;i<=z;i++){
         if (i === 1) {
             fibArr.push(1);
@@ -17,9 +19,8 @@ const fibonacci = function(x) {
             fibArr.push(fibArr[fibArr.length-1] + fibArr[fibArr.length-2]);
         }
     }
-    return fibArr[fibArr.length-1];
-    
 
+    return fibArr[fibArr.length-1];
 };
 
 // Do not edit below this line
